@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/medicineNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine Name"
+                android:textColor="@color/text_primary"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:id="@+id/medicineDescText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:fontFamily="@font/poppins_light"
+                android:textColor="@color/text_primary"/>
+
+            <TextView
+                android:id="@+id/medicineDosageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dosage"
+                android:fontFamily="@font/poppins_light"
+                android:textColor="@color/text_primary"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/reminderTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:paddingStart="16dp"
+            android:gravity="end"
+            android:layout_marginStart="16dp"
+            android:textColor="#007bff"
+            android:layout_alignParentEnd="true"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
