@@ -1,2 +1,2 @@
 # MobileApp-MedTech
-This project was created as part of my coursework in Mobile Development.
+This project was developed as part of my university coursework in Mobile Development.
