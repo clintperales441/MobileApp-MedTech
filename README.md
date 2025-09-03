@@ -1,2 +1,2 @@
 # MobileApp-MedTech
-This work is a school project from Mobile Development course
+This project was created as part of my coursework in Mobile Development.
